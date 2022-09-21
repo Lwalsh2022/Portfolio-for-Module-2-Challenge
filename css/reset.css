@@ -1,4 +1,4 @@
-@import 'utilities.css';
+@import 'reset.css';
 :root{
 --primary: rgb(29, 221, 189);
 --bgDark: rgb(12, 12, 12);
