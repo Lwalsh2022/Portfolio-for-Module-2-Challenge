@@ -1,11 +1,11 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     }
     header{
-    background-color: var(--bgDark);
+    background-color: var(--primary);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
     }
     header nav .left a{
@@ -16,7 +16,7 @@
     transition: all .2s ease;
     }
     header nav .left a:hover{
-    color: var(--primary);
+    color: var(--bgDark);
     }
     header nav {
     padding: 2rem 0;
@@ -25,7 +25,7 @@
     margin-right: 3rem;
     }
     body{
-        font-family: 'Poppins', sans-serif;
+        font-family: serif;
         }
         .container{
         max-width: 1152px;
@@ -40,7 +40,7 @@
         width: 400px;
         }
         .hero .right {
-        color: var(--white);
+        color: var(--blue);
         margin-top: -7rem;
         }
         .hero .right h6{
@@ -49,12 +49,12 @@
         margin-bottom: 0.5rem;
         }
         .hero .right h1{
-        font-size: 4rem;
+        font-size: 2.5rem;
         font-weight: 100;
-        line-height: 1.2;
+        line-height: 1;
         margin-bottom: 2rem;
         }
-        .hero .right h1 span{
+        .hero .right h1 {
         color: var(--primary);
         }
         .hero .right p{
