@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 10px;
+    margin: 15px;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     }
@@ -24,6 +24,7 @@
     header nav .logo{
     margin-right: 3rem;
     }
+
     body{
         font-family: serif;
         }
@@ -49,7 +50,7 @@
         margin-bottom: 0.5rem;
         }
         .hero .right h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 100;
         line-height: 1;
         margin-bottom: 2rem;
@@ -61,3 +62,89 @@
         line-height: 1.9;
         margin-bottom: 2rem;
         }
+
+        section.services{
+            background: white;
+        }
+            .services-head{
+            color: white;
+            text-align: center;
+            margin-bottom: 1rem;
+            line-height: 0.5rem;
+            color: var(--primary);
+            }
+            .services-head + p{
+            color: var(--white);
+            font-family: serif;
+            margin-bottom: 1rem;
+            text-align: center;
+            margin-bottom: 6rem;
+            font-weight: 400;
+            }
+
+            section.services .card-grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 2rem;
+            }
+            section.services .card-grid .card{
+            background: var(--primary);
+            border-radius: 10px;
+            padding: 3rem 2rem;
+            position: relative;
+            text-align: center;
+            transition: all .2s ease;
+            }
+            section.services .card-grid .card img{
+            position: absolute;
+            top: -1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--white);
+            }
+            section.services .card-grid .card h2{
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            }
+            section.services .card-grid .card p{
+            font-family: serif;
+            color: var(--white);
+            line-height: 1.6;
+            }
+            section.container {
+                font-family: serif;
+            }
+    
+input[type=text], select, textarea {
+    font-family: serif;
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: var(--primary);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--bgDark);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
+
+     
